@@ -1,4 +1,4 @@
-# Maluku App
+# Fikroh Religi
 
 ## Bagian dari UAS GIS
 
