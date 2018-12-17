@@ -6,6 +6,7 @@
     @include('website.layout.navbar')
     <!-- Page Features -->
     <div class="container mt-5">
+        <a href="{{$_SERVER['HTTP_REFERER']}}" class="btn btn-success mb-2">Kembali</a>
         <div class="row">
             @foreach ($wilayah as $item)
             @if (((count($wilayah) - 1) == $loop->index) && (count($wilayah) % 2 == 1))

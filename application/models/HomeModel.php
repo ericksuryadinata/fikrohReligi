@@ -8,4 +8,9 @@ class HomeModel extends CI_Model {
         $data = $this->db->query($query);
         return $data;
     }
+
+    public function insertData($tablename,$data){
+		$res = $this->db->insert($tablename,$data);
+		return $res;
+	}
 }

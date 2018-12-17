@@ -38,7 +38,7 @@
                             <h3 class="mb-2">
                                 Input Tempat Ibadah
                             </h3>
-                            <a class="btn btn-primary" href="#">Submit</a>
+                            <a class="btn btn-primary" href="{{route('home.input')}}">Submit</a>
                         </div>
                     </div>
                 </div>

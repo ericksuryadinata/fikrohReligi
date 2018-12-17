@@ -24,6 +24,8 @@ Route::group('/', ['namespace' => 'Frontend'], function(){
     Route::get('/wilayah','HomeController@wilayah')->name('home.wilayah');
     Route::get('/wilayah/{wilayah_id}/tipe','HomeController@tipe')->name('home.tipe');
     Route::Get('/wilayah/{wilayah_id}/tipe/{tipe_id}','HomeController@result')->name('home.result');
+    Route::get('/input','HomeController@input')->name('home.input');
+    Route::post('/input/save','HomeController@inputSave')->name('home.input.save');
 });
 
 require __DIR__ . '/admin.php';
